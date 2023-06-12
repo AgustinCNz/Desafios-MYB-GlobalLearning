@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Formulario2</title>
+</head>
+
+<body>
+  <main>
+    <form>
+      <h1>Registrate</h1>
+      <div class='container'>
+        <label>
+          <span class='float'>Nombre</span>
+          <input type='text' name='first-name' required>
+          <span class="error-message hidden">Solo se permiten letras y espacios.</span>
+        </label>
+        <label>
+          <span class='float'>Apellido</span>
+          <input type='text' name='last-name' required>
+          <span class="error-message hidden">Solo se permiten letras y espacios.</span>
+        </label>
+        <label>
+          <span class='float'>Contraseña</span>
+          <input type='password' name='password' required>
+          <span class="error-message hidden"></span>
+        </label>
+        <label>
+          <span class='float'>Repetir contraseña</span>
+          <input type='password' name='confirm-password' required>
+          <span class="error-message hidden">Las contraseñas deben coincidir.</span>
+        </label>
+        <label>
+          <span class='float'>Usuario</span>
+          <input type='text' name='username' required>
+          <span class="error-message hidden"></span>
+        </label>
+        <label>
+          <span class='float'>Fecha de nacimiento</span>
+          <input type='date' name='birthday' required>
+          <span class="error-message hidden">Debes tener más de 18 años.</span>
+        </label>
+        <label class='checkbox-label'>
+          <input type='checkbox' name='newsletter'>
+          <span>Deseo recibir información de nuestros productos.</span>
+        </label>
+      </div>
+      <button disabled>Enviar</button>
+    </form>
+  </main>
+  <script src='/index.js'></script>
+</body>

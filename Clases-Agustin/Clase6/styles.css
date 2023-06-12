@@ -1,0 +1,55 @@
+body {
+  background: rgb(255, 45, 45);
+  background: linear-gradient(0deg, rgba(255, 45, 45, 1) 9%, rgba(47, 1, 12, 1) 33%);
+  font-family: 'Geologica', sans-serif;
+  color: white;
+}
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+}
+nav {
+  font-family: 'Inter', sans-serif;
+}
+
+form {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section label {
+  display: block;
+  margin-bottom: 10px;
+}
+.section input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.section .date-input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.button {
+  background-color: #F90000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FF2D2D;
+}
